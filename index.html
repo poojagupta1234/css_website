@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Css</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d4f4d7;
+        }
+        header {
+            background-color: #2ecc71;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+         .navbar{
+            background-color: #f11fd5;
+            padding: 10px;
+            text-align: center;
+        }
+        .navbar .btn {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+            border: 0;
+            background-color: #f11fd5; 
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .navbar .btn:hover {
+            text-decoration: underline;
+            color: #000;
+        }
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        section {
+            flex: 2;
+            background-color: #7fff7f;
+            padding: 20px;
+            margin-right: 10px;
+        }
+        aside {
+            flex: 1;
+            background-color: #7fff7f;
+            padding: 20px;
+        }
+        footer {
+            background-color: #2ecc71;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .nav-btn {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-color: gray;
+            padding: 10px;
+            text-align: center;
+        }
+        .flexClass {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 10px;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            border: 0;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            border-radius: 10px;
+        }
+        .flexClass:hover {
+           background-color: white;
+            color: #000;
+        }
+      
+    </style>
+      <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+   <script>
+       function getPageName(pageName) {
+            var x = document.getElementById("includeHtml");
+            x.innerHTML = "Hello World";
+         $("#includeHtml").load(pageName);
+       }    
+        
+      $(function() {
+
+      
+$("#includeHtml").load("button-pseudo-classes.html");
+        
+      });
+   </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to CSS</h1>
+    </header>
+    <nav class="navbar">
+      
+<button class="btn" title="Click to do something" onclick="getPageName('biography-page.html');">Biography</button>
+<button class="btn" title="Click to do something" onclick="getPageName('form-signup.html');">Form signup</button>
+<button class="btn" title="Click to do something" onclick="getPageName('position.html');">Position Example</button>
+<button class="btn" title="Click to do something" onclick="getPageName('shadow.html');">Shadow Example</button>
+<button  class="btn" title="Click to do something" onclick="getPageName('button-pseudo-classes.html');">Pseudo-Classes Example</button>
+<button  class="btn" title="Click to do something" onclick="getPageName('pseudo-classes-pseudo-elements.html');">Pseudo-Element Example</button>
+ 
+</nav>
+   <nav class="nav-btn">
+      
+<button class="btn flexClass" title="Click to do something" onclick="getPageName('flex-box.html');">Flexbox 1</button>
+<button class="btn flexClass" title="Click to do something" onclick="getPageName('flex-box2.html');">Flexbox 2</button>
+<button class="btn flexClass" title="Click to do something" onclick="getPageName('flex-box5.html');">Flexbox 3 </button>
+<button class="btn flexClass" title="Click to do something" onclick="getPageName('flex-box6.html');">Flexbox 4 </button>
+<button  class="btn flexClass" title="Click to do something" onclick="getPageName('flex-grid.html');">Flex Grid</button>
+<button  class="btn flexClass" title="Click to do something" onclick="getPageName('grid-layout.html');">Grid Layout</button>
+ 
+</nav>
+   
+      <div id="includeHtml"></div>
+    
+</body>
+</html>
