@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <meta name="description" content="A simple HTML and CSS website showcasing various designs and layouts.">
+    <meta name="keywords" content="HTML, CSS, web design, responsive design, sticky header, media">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="index, follow">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Flex box </title>
+</head>
+<body>
+    <div class="m-[15px]">
+        <header class="mx-auto my-[10px] min-h-[80px] border-5 border-black">Header</header>
+        <main class="border-5 border-black flex p-[10px] flex-col md:flex-row">
+           <div class="min-h-[233px] m-[5px] border-5 border-black basis-[33%]"> content 1 </div>
+           <div  class="min-h-[233px] m-[5px] border-5 border-black basis-[33%]"> content 2 </div>
+           <div  class="min-h-[233px] m-[5px] gap-2 border-0 flex flex-col md:flex-row basis-[33%]"> 
+            <div class=" basis-[50%] border-5 border-black p-[10px] min-h-[233px]">top</div>
+            <div  class="basis-[50%] border-5 border-black p-[10px] min-h-[233px]">bottom</div>
+             </div>
+        </main>
+        <footer class="border-5 border-black p-[10px]">Footer</footer>
+    </div>
+    
+</body>
+</html>

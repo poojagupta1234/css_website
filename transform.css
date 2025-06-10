@@ -1,0 +1,35 @@
+
+        .container {
+            width: 1000px;
+            height: 1000px;
+            background-color: blue;
+               display: flex;  
+                
+           justify-content:space-around;
+              text-align: right;
+
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+            line-height: 200px;
+            
+        }
+        .box1 {
+            transform: rotate(45deg);
+         
+           
+        }
+        .box2 {
+            transform: scale(1.5);
+           
+        }
+       
+            
+          
+       
+  

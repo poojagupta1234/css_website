@@ -1,0 +1,86 @@
+@import url("global.css");
+   
+        body {
+            font-family: var(--font-family);
+            background-color: var(--light-blue);
+        }
+        header {
+            background-color: var(--dark-blue);
+            color:  var(--white);
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+         .navbar{
+            background-color: var(--light-pink);
+            padding: 10px;
+            text-align: center;
+        }
+        .navbar .btn {
+            color: var(--white);
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+            border: 0;
+            background-color: var(--light-pink);
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .navbar .btn:hover {
+            text-decoration: underline;
+            color:  var(--black);
+           
+        }
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        section {
+            flex: 2;
+            background-color:var(--light-green);
+            padding: 20px;
+            margin-right: 10px;
+        }
+        aside {
+            flex: 1;
+            background-color:var(--light-green);
+            padding: 20px;
+        }
+        footer {
+            background-color: var(--mid-blue);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .nav-btn {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-color: var(--light-gray);
+            padding: 10px;
+            text-align: center;
+        }
+        .flexClass {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 10px;
+            padding: 10px;
+            background-color:var(--black);
+            color: var(--white);
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            border: 0;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            border-radius: 10px;
+        }
+        .flexClass:hover {
+           background-color:var(--white);
+            color: var(--black);
+        }
+      
+  

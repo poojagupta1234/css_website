@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple HTML and CSS website showcasing various designs and layouts.">
-    <meta name="keywords" content="HTML, CSS, web design, responsive design, sticky header, media">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="robots" content="index, follow">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="position.css">
-    <title>Position </title>
-    <style>
+
         .container {
             width: 400px;
             height: 400px;
@@ -70,22 +58,4 @@
             height: 300vh;
             background-color: rgb(0, 217, 255);
         }
-    </style>
-</head>
-<body>
-    <h1>Position</h1>
-    <div class="container">
-
-        <div class="box green">relative</div>
-        <div class="box pink">absulate</div> 
-        <div class="box yellow">static</div>
-         <div class="box blue">fixed</div>
-           <div class="box orange">sticky</div>
-    </div>
-      <div class="container-1">
-        <div class="absoluteDiv">absulate in side relative </div>
-      </div>
-    <div class="spacer"> 
-        <img src="https://image-placeholder.com/images/actual-size/57x57.png" /> </div>
-</body>
-</html>
+   

@@ -1,20 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
-}
+@import url('global.css');
 
 .container {
     margin: 15px;
     font-size: 17px;
-    font-family: Arial, sans-serif;
+    font-family:  var(--font-family);
     font-weight: 600;
    
 }
 
 .container> header, nav, aside, footer, .main {
     flex:100%;
-    border: 1px solid red;
+    border: 1px solid var(--red);
     
 }
 
@@ -45,24 +41,19 @@ aside {
  
   
 }
-.div1, .div2 {
-    
-}
 
 .div1 {
     min-height: 233px;
-    background-color: gray;
-   
+    background-color: var(--light-gray);
     border-radius:10px;
     padding: 10px;
 
 }
 .div2 {
     min-height: 100px;
-    display: flex;
     gap: 15px;
     padding: 10px 0;
-    flex-wrap:wrap;
+    
 }
 
 .div2 > div {
@@ -89,7 +80,7 @@ footer {
         flex-direction: column;
     }
     main {
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
     aside, .div1 {
         min-height: 100px;

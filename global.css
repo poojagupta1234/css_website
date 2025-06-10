@@ -1,0 +1,78 @@
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --red: red;
+  --light-coral :#6e2121;
+    --black: #000000;
+    --green: #2ecc71;
+    --light-green: #7fff7f;
+    --dark-green: #27ae60;
+    --light-blue: #d4f4d7;
+    --alice-blue: #f0f8ff;
+    --dark-blue: #2816c7;
+    --light-yellow: #f9e79f;
+    --dark-yellow: #f1c40f;
+    --light-red: #ff6347;
+    --dark-red: #c0392b;
+    --light-purple: #9b59b6;
+    --dark-purple: #8e44ad;
+    --light-orange: #f39c12;
+    --mid-blue: #2ecc71;
+    --light-gray: #bbb5b5;
+    --light-pink:#f11fd5;
+    --font-family: Arial, sans-serif;
+    --font-size: 16px;
+    --line-height: 1.6;
+    --margin: 0;
+    --padding: 0;   
+}
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-wrap {
+  display: flex;
+flex-wrap: wrap;
+
+}
+/* .m-15  {
+    margin: 15px;
+}
+
+.border-black {
+    border: 5px solid var(--blue);
+}
+
+.flex-basis-50 {
+ flex-basis: 50%;
+}
+
+.flex-basis-33 {
+ flex-basis: 33%;
+}
+.flex-direction {
+    flex-direction: column;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex {
+    display: flex;
+}
+.flex-gap {
+    gap: 15px;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-row {
+    flex-direction: row;
+} */
